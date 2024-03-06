@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import './App.css'
+import { useTelegram } from './hooks/useTelegram';
 
 function App() {
   const {tg} = useTelegram();
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <>
-     
+     <h1>YOYOYOYYOYO</h1>
     </>
   )
 }
